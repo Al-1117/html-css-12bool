@@ -1,7 +1,16 @@
 
+[class*="col-"] {
+  position: relative;
+}
 
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-.container .text{
-  text-align: center;
-  line-height: 202px;
+.debug .nested {
+  border: 1px solid white;
+  background-color: #ff6666;
 }
