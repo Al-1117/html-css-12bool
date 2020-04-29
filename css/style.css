@@ -1,16 +1,28 @@
 
 [class*="col-"] {
   position: relative;
+  height: 100%;
 }
 
-p {
+span {
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.debug .nested {
+.debug {
   border: 1px solid white;
-  background-color: #ff6666;
+}
+
+.nested {
+  padding: 5px;
+
+}
+
+.nested [class*="col-"] {
+  padding: 2%;
+  border: 1px solid #ffffff;
+  background-color: salmon;
 }

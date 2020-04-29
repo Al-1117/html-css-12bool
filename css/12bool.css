@@ -12,12 +12,10 @@
   margin: 0 auto;
 }
 
-
-
 /* End of Container */
 
 /* Debug */
-.container {
+.debug .container {
   background-color: blue;
   border: 1px solid yellow;
 }
@@ -27,7 +25,6 @@
   border: 1px solid black;
   height: 200px;
 }
-
 /* End of Debug */
 
 /* Col's Float left */
@@ -87,3 +84,37 @@
   width: 100%;
 }
 /* End of Cols */
+
+
+/* Offset */
+
+.offset-1 {
+  margin-left: calc(100% / 12 );
+}
+.offset-2 {
+  margin-left: calc((100% / 12 ) * 2)
+}
+.offset-2 {
+  margin-left: calc((100% / 12 ) * 2)
+}
+.offset-2 {
+  margin-left: calc((100% / 12 ) * 2)
+}
+.offset-2 {
+  margin-left: calc((100% / 12 ) * 2)
+}
+.offset-2 {
+  margin-left: calc((100% / 12 ) * 2)
+}
+.offset-2 {
+  margin-left: calc((100% / 12 ) * 2)
+}
+.offset-2 {
+  margin-left: calc((100% / 12 ) * 2)
+}
+.offset-2 {
+  margin-left: calc((100% / 12 ) * 2)
+}
+.offset-2 {
+  margin-left: calc((100% / 12 ) * 2)
+}
